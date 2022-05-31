@@ -112,6 +112,8 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
 
         perfectGuacamole.setNotes(perfectGuacamoleNotes);
 
+        perfectGuacamole.setUrl("https://www.perfectguacamole.com");
+
         perfectGuacamole.addIngredient(new Ingredient("ripe avocados", BigDecimal.valueOf(2), eachUom));
         perfectGuacamole.addIngredient(new Ingredient("salt", BigDecimal.valueOf(0.25), teaUom));
         perfectGuacamole.addIngredient(new Ingredient("minced red onion or thinly sliced green onion", BigDecimal.valueOf(2), eachUom));
@@ -148,6 +150,8 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
         spicyGrilledChickenTacosNotes.setRecipe(spicyGrilledChickenTacos);
 
         spicyGrilledChickenTacos.setNotes(spicyGrilledChickenTacosNotes);
+
+        perfectGuacamole.setUrl("https://www.spicygrilledchickentacos.com");
 
         spicyGrilledChickenTacos.addIngredient(new Ingredient("ancho chili powder", BigDecimal.valueOf(2), tableSpoonUom));
         spicyGrilledChickenTacos.addIngredient(new Ingredient("dried oregano", BigDecimal.valueOf(1), teaUom));
